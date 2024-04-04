@@ -1,0 +1,269 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Mar 21, 2024, 11:10:55 a.m.
+    Author     : ashu
+*/
+
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #222222; 
+    color: #ffffff; 
+}
+
+.banner.dark-mode {
+    color: #F9A01B; 
+}
+
+.banner.dark-mode h1:hover,
+.banner.dark-mode h2:hover,
+.banner.dark-mode h3:hover {
+    color: #ffffff;
+    box-shadow: 0px 0 25px 0 rgba(255, 255, 255, 0.1);
+    transform: translateY(-10px);
+}
+
+.banner.dark-mode p {
+    color: #ffffff;
+}
+/*
+section.dark-mode {
+  padding: 60px 0;
+  overflow: hidden;
+  color: #ffffff;
+}
+
+.section-title.dark-mode h2 {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0;
+  line-height: 1px;
+  margin: 0 0 5px 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+}
+.features.container.section-title.dark-mode p{
+    color: #ffffff;
+}
+.section-title.dark-mode h2,
+.section-title.dark-mode h2::after,
+.section-title.dark-mode p {
+  color: #ffffff;  Lighter color for text in dark mode 
+}
+
+.section-title h2::after {
+  background: #f0c14b;  Lighter color for the underline in dark mode 
+}*/
+
+/* banner style */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .banner {
+            position: relative;
+            height: 700px; /* Adjust the height as needed */
+            background-image: url('https://static.vecteezy.com/system/resources/previews/002/377/841/non_2x/vegetables-and-fruits-arrangement-with-black-space-free-photo.jpg'); /* Replace 'your-image.jpg' with your actual image file */
+            background-size: cover;
+            color: #F9A01B;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            
+        }
+
+        .banner h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        .banner h1:hover{
+            color: #151515;
+              transition: all ease-in-out 0.3s;
+              box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+            transform: translateY(-10px);
+
+        }
+        .banner h2:hover{
+            color: #151515;
+            box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+            transform: translateY(-10px);
+        }
+        .banner h3:hover{
+            color: #151515;
+            box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+            transform: translateY(-10px);
+        }
+
+        .banner p {
+            font-size: 1.2em;
+        }
+        /*about us*/
+        .about .content h3 {
+            font-weight: 700;
+            font-size: 28px;
+            font-family: "Poppins", sans-serif;
+        }
+.about .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about .content ul li {
+  padding: 0 0 8px 26px;
+  position: relative;
+}
+
+.about .content ul i {
+  position: absolute;
+  font-size: 20px;
+  left: 0;
+  top: -3px;
+  color: #ffc451;
+}
+
+.about .content p:last-child {
+  margin-bottom: 0;
+}
+ /* Add some basic styling to the footer */
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 15 px;
+            text-align: center;
+            position: bottom;
+            bottom: 5;
+            height: 50px;
+            width: 100%;
+        }
+        
+        section {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.section-title {
+    margin: 10;
+  padding-bottom: 40px;
+}
+
+.section-title h2 {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0;
+  line-height: 1px;
+  margin: 0 0 5px 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #aaaaaa;
+  font-family: "Poppins", sans-serif;
+}
+
+.section-title h2::after {
+  content: "";
+  width: 120px;
+  height: 1px;
+  display: inline-block;
+  background: #F9A01B;
+  margin: 4px 10px;
+}
+
+.section-title p {
+  margin: 0;
+  margin: 0;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #F9A01B;
+}
+login-button{
+    display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+}
+.login-button {
+            padding: 10px 20px;
+            margin-right: 10px;
+            font-size: 16px;
+            background-color: #F9A01B; /* orange */
+            color: white;
+            text-decoration: none; /* Remove default underline on anchor */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .login-button:hover {
+            background-color: #45a049; /* Darker green on hover */
+        }
+        .nav-item:hover{
+            background-color: #F9A01B;
+        }
+        
+        /*services*/
+  .services .icon-box {
+  text-align: center;
+  border: 1px solid #ebebeb;
+  padding: 80px 20px;
+  transition: all ease-in-out 0.3s;
+  background: #fff;
+}
+.services .icon-box .icon {
+  margin: 0 auto;
+  width: 64px;
+  height: 64px;
+  background: #ffc451;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  transition: 0.3s;
+}
+.services .icon-box .icon i {
+  color: #151515;
+  font-size: 28px;
+  transition: ease-in-out 0.3s;
+}
+.services .icon-box h4 {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+.services .icon-box h4 a {
+  color: #151515;
+  transition: ease-in-out 0.3s;
+}
+.services .icon-box h4 a:hover {
+  color: #ffc451;
+}
+.services .icon-box p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+.services .icon-box:hover {
+  border-color: #222222;
+  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+  transform: translateY(-10px);
+}
+.small-image {
+  width: 100%; /* Set the width of the image to 100% of its container */
+  max-width: 400px; /* Set a maximum width for the image */
+  height: auto; /* Maintain the aspect ratio of the image */
+}
+.p .time{
+  font-family: "Poppins", sans-serif;
+  color: #151515;
+  font-size: 10;
+}
